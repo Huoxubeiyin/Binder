@@ -11,7 +11,7 @@ import android.os.RemoteException;
  * Email：891904833@qq.com
  * <p>
  * Description ：ShellManager 的具体逻辑
- *  1。 继承 Biinder，实现 IShellManager 接口
+ *  1。 继承 Binder，实现 IShellManager 接口
  */
 public class ShellManager extends Binder implements IShellManager {
 
