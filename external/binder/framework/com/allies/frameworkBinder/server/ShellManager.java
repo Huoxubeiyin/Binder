@@ -13,7 +13,7 @@ import android.os.RemoteException;
  * Description ：ShellManager 的具体逻辑
  *  1。 继承 Binder，实现 IShellManager 接口
  */
-public class ShellManagerService extends Binder implements IShellManager {
+public class ShellManager extends Binder implements IShellManager {
 
     static final String SHELL_MANAGER = "ShellManager";
 
